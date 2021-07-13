@@ -1,0 +1,13 @@
+RewriteBase /
+RewriteEngine on
+
+#enable HTTPS only
+#RewriteCond %{HTTPS} off
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . web/index.php
+
+php_value session.save_path "/var/www/salemen.ru/session"
+php_value session.gc_maxlifetime 2592000
+php_value session.cookie_lifetime 2592000

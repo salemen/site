@@ -1,0 +1,44 @@
+User-agent: *
+Disallow:*/admin
+Disallow:*/user
+Disallow:*/add*
+Disallow:*/view*
+Disallow:*/nedvigcategory/1$
+Disallow:*/nedvigcategory/4$
+Disallow:*/avtocategory/5$
+Disallow:*/avtocategory/6$
+Disallow:*/nedvigcategory/12$
+Disallow:*/nedvigcategory/15$
+Disallow:*/nedvigcategory/5*
+Disallow:*/nedvigcategory/8$
+Disallow:*/nedvigcategory/7$
+Disallow:*/nedvigcategory/18$
+Disallow:*/nedvigcategory/3$
+Disallow:*/nedvigcategory/2$
+Disallow:*/nedvigcategory/2/page-2$
+Disallow:*/nedvigcategory/2/page-3$
+Disallow:*/nedvigcategory/2/page-4$
+Disallow:*/nedvigcategory/2/page-5$
+Disallow:*/nedvigcategory/2/page-6$
+Disallow:*/nedvigcategory/2/page-7$
+Disallow:*/nedvigcategory/2/page-8$
+Disallow:*/nedvigcategory/2/page-9$
+Disallow:*/nedvigcategory/2/page-10$
+Disallow:*/nedvigcategory/2/page-11$
+Disallow:*/category/index*
+Disallow:*/category/53$
+Disallow:*/category/53?ads=vakansii$
+Disallow:*/category/1$
+Disallow:*/searchsnt$
+Disallow:*/searchprom$
+Disallow:*/searchpigs$
+Disallow:*/searchpsnt$
+Disallow:*/main$
+Disallow:*/category?ads=$
+Disallow:*/category?page*
+Disallow:*?tip=*
+Disallow:*/category?id=*
+Disallow:*/?baobab*
+Disallow:*/photo/index$
+Host: https://salemen.ru/
+Sitemap: https://salemen.ru/web/sitemap.xml 

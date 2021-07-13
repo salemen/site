@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule ^(.+)?$ /web/$1
+
+php_value session.save_path "/var/www/salemen.ru/session"
+php_value session.gc_maxlifetime 2592000
+php_value session.cookie_lifetime 2592000
+
+
+
